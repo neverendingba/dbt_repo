@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+    - name: rooms
+      database: HBG_DATASCIENCE
+      schema: SANDBOX_ANALYTICS
+      tables:
+        - name: rooms_mapping_on180
+        
+
+models:
+  - name: first_query
+    columns:
+    - name: upper_type_no_trash
+      tests:
+      - not_null

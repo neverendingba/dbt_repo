@@ -1,0 +1,1 @@
+Select * from {{source('rooms','rooms_mapping_on180')}} where upper_type_no_trash is not null
